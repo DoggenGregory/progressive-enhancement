@@ -1,0 +1,65 @@
+p{
+    font-family: sans-serif;
+    color:rgb(31, 8, 29);
+    margin:18px;
+    
+    
+    
+}
+.quote{
+    
+    width: 50%;
+    margin: 80px auto ; 
+    font-size:160%;
+    background-color: lightgray;
+    padding-left:30px;
+
+    border-left-style: solid;
+    border-color:black;
+    border-width:3px;
+    font-style: italic;
+}
+a{
+    color:purple;
+    font-size: 30px;
+}
+a:hover{
+    color:yellow;
+    font-size:40px;
+}
+a:visited{
+    color:green;
+    size :20px;
+}
+body{
+    width:90%;
+    margin:0px 10px;
+    
+    background: linear-gradient(-20deg, rgb(82, 82, 82), rgb(237, 246, 255)); 
+    background-color: no-repeat;
+
+}
+header{
+    background-color:yellow;
+}
+.good.bad{
+    text-transform: capitalize;
+}
+.good{
+    color:green;
+}
+.bad{
+    color:red;
+}
+tr:nth-child(even){background-color: #9c9c9c}
+tr:nth-child(odd){background-color: #494949}
+#li1{
+    margin-left:30px;
+    list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/mal.png?raw=true');}
+#li2{
+    margin-left:30px;
+    list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/mal.png?raw=true');}
+
+#li3{
+    margin-left:30px;
+    list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/chat.png?raw=true');}
