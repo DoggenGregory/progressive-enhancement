@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 p{
     font-family: sans-serif;
     color:rgb(31, 8, 29);
@@ -37,6 +41,8 @@ body{
     
     background: linear-gradient(-20deg, rgb(82, 82, 82), rgb(237, 246, 255)); 
     background-color: no-repeat;
+    font-family: 'Bilbo', cursive;
+    
 
 }
 header{
@@ -54,12 +60,20 @@ header{
 tr:nth-child(even){background-color: #9c9c9c}
 tr:nth-child(odd){background-color: #494949}
 #li1{
-    margin-left:30px;
+   
     list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/mal.png?raw=true');}
 #li2{
-    margin-left:30px;
+    
     list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/mal.png?raw=true');}
 
 #li3{
-    margin-left:30px;
+    
     list-style-image: url('https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/chat.png?raw=true');}
+#li1,#li2,#li3{
+    margin-left: 350px;
+}
+
+    .imgAlex{
+    float: left;
+
+}
